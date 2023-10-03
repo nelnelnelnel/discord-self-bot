@@ -1,5 +1,7 @@
 {
     "token": "MTAyM>>>>>>>>>",
     "prefix": "?",
-    "rpc_enabled": true
+    "rpc_enabled": true,
+    "rpc_details": "Making Discord Great Again!",
+    "rpc_state": "github.com/nelnelnelnel"
 }
