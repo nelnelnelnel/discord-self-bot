@@ -25,7 +25,7 @@ client.load_extension("cogs.stats")
 client.load_extension("cogs.user")
 
 # Start discord rpc
-RPC = Presence("1158759194439200839")
+RPC = Presence("1190910267870158928")
 RPC.connect()
 if rpc_enabled == True:
     RPC.update(details=rpc_details, state=rpc_state, start=time.time())
@@ -46,18 +46,14 @@ async def on_command_error(ctx, error):
 @client.event
 async def on_ready():
     print(Fore.RED + """
- ▄▄▄██▀▀▀█     █░█    ██  ▄████▄       ██████ ▓█████  ██▓      █████▒▄▄▄▄    ▒█████  ▄▄▄█████▓
-   ▒██  ▓█░ █ ░█░██  ▓██▒▒██▀ ▀█     ▒██    ▒ ▓█   ▀ ▓██▒    ▓██   ▒▓█████▄ ▒██▒  ██▒▓  ██▒ ▓▒
-   ░██  ▒█░ █ ░█▓██  ▒██░▒▓█    ▄    ░ ▓██▄   ▒███   ▒██░    ▒████ ░▒██▒ ▄██▒██░  ██▒▒ ▓██░ ▒░
-▓██▄██▓ ░█░ █ ░█▓▓█  ░██░▒▓▓▄ ▄██▒     ▒   ██▒▒▓█  ▄ ▒██░    ░▓█▒  ░▒██░█▀  ▒██   ██░░ ▓██▓ ░ 
- ▓███▒  ░░██▒██▓▒▒█████▓ ▒ ▓███▀ ░   ▒██████▒▒░▒████▒░██████▒░▒█░   ░▓█  ▀█▓░ ████▓▒░  ▒██▒ ░ 
- ▒▓▒▒░  ░ ▓░▒ ▒ ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░   ▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ▒░▓  ░ ▒ ░   ░▒▓███▀▒░ ▒░▒░▒░   ▒ ░░   
- ▒ ░▒░    ▒ ░ ░ ░░▒░ ░ ░   ░  ▒      ░ ░▒  ░ ░ ░ ░  ░░ ░ ▒  ░ ░     ▒░▒   ░   ░ ▒ ▒░     ░    
- ░ ░ ░    ░   ░  ░░░ ░ ░ ░           ░  ░  ░     ░     ░ ░    ░ ░    ░    ░ ░ ░ ░ ▒    ░      
- ░   ░      ░      ░     ░ ░               ░     ░  ░    ░  ░        ░          ░ ░           
-                         ░                                                ░                   
+            _             
+           | |            
+ __  _____ | |____      __
+ \ \/ / _ \| '_ \ \ /\ / /
+  >  < (_) | | | \ V  V / 
+ /_/\_\___/|_| |_|\_/\_/  
     """)
-    print(Fore.MAGENTA + "Selfbot made by @jwuc")
+    print(Fore.MAGENTA + "Selfbot made by @xohw")
     print(Fore.BLUE + f"Connected to Discord as @{client.user.name}!")
     print(Fore.YELLOW + f"{client.user.email} | {client.user.id} | {len(client.guilds)} servers | {len(client.user.friends)} friends" + Fore.RESET)
 

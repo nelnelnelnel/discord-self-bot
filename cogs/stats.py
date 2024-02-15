@@ -2,7 +2,6 @@ from discord.ext import commands
 import discord
 import requests
 import json
-import time
 
 class Stats(commands.Cog):
     def __init__(self, client):
@@ -43,13 +42,13 @@ stop_activity - Stops all custom statuses""")
     async def info(self, ctx):
         await ctx.message.delete()
         await ctx.send(
-            f"""# :information_source: Jwuc selfbot info
+            f"""# :information_source: xohw selfbot info
 ### Servers
 {len(self.client.guilds)}
 ### Friends
 {len(self.client.user.friends)}
 ### Developer
-jwuc
+xohw
 ### Language
 Python
 ### Made for fun! ❤""")
